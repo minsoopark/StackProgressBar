@@ -11,6 +11,8 @@ import android.view.MotionEvent
 import android.view.View;
 import android.widget.TextView
 
+import io.github.minsoopark.spb.R
+
 /**
  * Created by mspark on 2015. 6. 23..
  */
