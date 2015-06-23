@@ -28,7 +28,7 @@ public class StackProgressBar : View {
     public var max: Int
     public var progress: Int
         set(value) {
-            if ($progress > max || $progress < min) {
+            if (value > max || value < min) {
                 return
             }
 
@@ -112,6 +112,7 @@ public class StackProgressBar : View {
                 progress = max - (max * event.getY() / getMeasuredHeight()).toInt()
                 return true
             }
+            MotionEvent.ACTION_OUTSIDE -> return true
         }
         return super.onTouchEvent(event)
     }
