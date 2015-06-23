@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="StackProgressBar">
+        <attr name="cellsCount" format="integer"/>
+        <attr name="cellHeight" format="dimension"/>
+        <attr name="stackBgColor" format="color"/>
+        <attr name="stackColor" format="color"/>
+        <attr name="min" format="integer"/>
+        <attr name="max" format="integer"/>
+        <attr name="progress" format="integer"/>
+    </declare-styleable>
+</resources>
