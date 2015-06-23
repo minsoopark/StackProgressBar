@@ -24,6 +24,6 @@ In your XML,
 
 # License
 
-The Apache License 2.0
+[The Apache License 2.0](https://github.com/minsoopark/StackProgressBar/blob/master/LICENSE)
 
 Copyright (c) 2015 Minsoo Park
